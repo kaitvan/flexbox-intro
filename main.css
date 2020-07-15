@@ -4,14 +4,36 @@
 }
 
 body {
-    background-color: lightgrey;
+    background-color: #F3C969;
+    font-family: 'Epilogue', sans-serif;
 }
 
+h1 {
+    padding: 1em;
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    background-color: #0E1428;
+    padding: 1em;
+    color: white;
+}
+
+/**********NAVIGATION***********/
 .navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: deepskyblue;
+    background-color: #0E1428;
+    font-family: 'Epilogue', sans-serif;
 }
 
 ul {
@@ -27,7 +49,7 @@ ul {
 }
 
 .logo a {
-    color: rgb(28, 24, 22);
+    color: white;
 }
 
 .logo a, 
@@ -43,5 +65,31 @@ ul a {
 }
 
 ul a:hover {
-    background-color: #00ace6;
+    background-color: #2A3D79;
+}
+
+/*****DOGS*****/
+
+.dogs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.dogs img {
+    width: 300px;
+    margin: 20px;
+}
+
+/*****CATS*****/
+
+.cats {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.cats img {
+    width: 300px;
+    margin: 20px;
 }
